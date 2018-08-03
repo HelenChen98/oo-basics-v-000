@@ -1,7 +1,6 @@
 # Make your shoe class here!
 class shoe
-  attr_accessor :brand, :page_count, :genre
-  attr_reader :title
+  attr_accessor :brand
 
   def initialize(brand)
     @brand = brand
